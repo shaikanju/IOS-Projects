@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sortingalgorithms" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dQ2-Ff-P4V">
+                                <rect key="frame" x="40" y="98" width="143" height="32"/>
+                                <segments>
+                                    <segment title="4"/>
+                                    <segment title="8"/>
+                                    <segment title="16"/>
+                                    <segment title="32"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="64U-CB-9c2">
+                                <rect key="frame" x="25" y="160" width="326" height="32"/>
+                                <segments>
+                                    <segment title="Insertion"/>
+                                    <segment title="Selection"/>
+                                    <segment title="Quick"/>
+                                    <segment title="Bubble"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4n-BA-UaK">
+                                <rect key="frame" x="60" y="783" width="56" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sort"/>
+                                <connections>
+                                    <action selector="startSorting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KXR-Jp-7TG"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5cb-WX-tsO">
+                                <rect key="frame" x="30" y="458" width="306" height="32"/>
+                                <segments>
+                                    <segment title="Insertion"/>
+                                    <segment title="Selection"/>
+                                    <segment title="Quick"/>
+                                    <segment title="Bubble"/>
+                                </segments>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3F1-f5-G5S" customClass="SortingView" customModule="Sortingalgorithms" customModuleProvider="target">
+                                <rect key="frame" x="40" y="234" width="296" height="172"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRI-qs-0Wr" customClass="SortingView" customModule="Sortingalgorithms" customModuleProvider="target">
+                                <rect key="frame" x="40" y="536" width="296" height="210"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;--Select Array Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxd-gv-NVi">
+                                <rect key="frame" x="200.33333333333337" y="103" width="147.66666666666663" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5cb-WX-tsO" firstAttribute="top" secondItem="3F1-f5-G5S" secondAttribute="bottom" constant="52" id="2Jy-HZ-A70"/>
+                            <constraint firstItem="aRI-qs-0Wr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="4uG-Qo-NGt"/>
+                            <constraint firstItem="64U-CB-9c2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="Iwr-Nx-uEJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="64U-CB-9c2" secondAttribute="trailing" constant="42" id="KDC-Lb-Ito"/>
+                            <constraint firstItem="aRI-qs-0Wr" firstAttribute="top" secondItem="5cb-WX-tsO" secondAttribute="bottom" constant="47" id="KSp-66-Iod"/>
+                            <constraint firstItem="u4n-BA-UaK" firstAttribute="top" secondItem="aRI-qs-0Wr" secondAttribute="bottom" constant="37" id="MWm-zI-98q"/>
+                            <constraint firstItem="64U-CB-9c2" firstAttribute="top" secondItem="dQ2-Ff-P4V" secondAttribute="bottom" constant="31" id="Sfc-Ka-aSc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5cb-WX-tsO" secondAttribute="trailing" constant="57" id="TDF-Dn-WmB"/>
+                            <constraint firstItem="3F1-f5-G5S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="175" id="WfI-eD-9cg"/>
+                            <constraint firstItem="3F1-f5-G5S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="di8-hO-0bI"/>
+                            <constraint firstItem="dQ2-Ff-P4V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="dkB-zv-E4z"/>
+                            <constraint firstItem="dQ2-Ff-P4V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="fZ7-Oh-df2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dxd-gv-NVi" secondAttribute="trailing" constant="45" id="jOj-jk-zIL"/>
+                            <constraint firstItem="5cb-WX-tsO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="mBu-k6-Dir"/>
+                            <constraint firstItem="aRI-qs-0Wr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="536" id="mQn-55-Jfd"/>
+                            <constraint firstItem="Dxd-gv-NVi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="nc3-7n-nOq"/>
+                            <constraint firstItem="u4n-BA-UaK" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="pTS-7n-GOI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3F1-f5-G5S" secondAttribute="trailing" constant="57" id="vMm-Vu-SZj"/>
+                            <constraint firstItem="u4n-BA-UaK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="yFd-c1-dh4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aRI-qs-0Wr" secondAttribute="trailing" constant="57" id="yLm-Hu-sNs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="algorithmSegmentedControl" destination="64U-CB-9c2" id="DoK-1q-aRS"/>
+                        <outlet property="algorithmSegmentedControl2" destination="5cb-WX-tsO" id="svk-0E-ngq"/>
+                        <outlet property="sizeSegmentedControl" destination="dQ2-Ff-P4V" id="93r-bq-ocs"/>
+                        <outlet property="sortingView" destination="3F1-f5-G5S" id="MbA-qo-xle"/>
+                        <outlet property="sortingView2" destination="aRI-qs-0Wr" id="axU-up-JeE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-405.34351145038164" y="-37.323943661971832"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

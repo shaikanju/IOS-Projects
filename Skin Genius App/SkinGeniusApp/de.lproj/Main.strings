@@ -1,0 +1,108 @@
+
+/* Class = "UILabel"; text = "Recommendations"; ObjectID = "4Vc-of-8dh"; */
+"4Vc-of-8dh.text" = "Recommendations";
+
+/* Class = "UILabel"; text = "CreateRoutine"; ObjectID = "71D-4f-8dR"; */
+"71D-4f-8dR.text" = "CreateRoutine";
+
+/* Class = "UIButton"; configuration.title = "Cleanser"; ObjectID = "AYx-S3-qvE"; */
+"AYx-S3-qvE.configuration.title" = "Cleanser";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AYx-S3-qvE"; */
+"AYx-S3-qvE.normalTitle" = "Button";
+
+/* Class = "UISegmentedControl"; BZv-nP-KUu.segmentTitles[0] = "English"; ObjectID = "BZv-nP-KUu"; */
+"BZv-nP-KUu.segmentTitles[0]" = "English";
+
+/* Class = "UISegmentedControl"; BZv-nP-KUu.segmentTitles[1] = "Spanish"; ObjectID = "BZv-nP-KUu"; */
+"BZv-nP-KUu.segmentTitles[1]" = "Spanish";
+
+/* Class = "UISegmentedControl"; BZv-nP-KUu.segmentTitles[2] = "Hindi"; ObjectID = "BZv-nP-KUu"; */
+"BZv-nP-KUu.segmentTitles[2]" = "Hindi";
+
+/* Class = "UIButton"; configuration.title = "Moisturiser"; ObjectID = "JMx-f2-vfs"; */
+"JMx-f2-vfs.configuration.title" = "Moisturiser";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JMx-f2-vfs"; */
+"JMx-f2-vfs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Enable Notifications"; ObjectID = "Juf-u0-9cG"; */
+"Juf-u0-9cG.text" = "Enable Notifications";
+
+/* Class = "UILabel"; text = "Tips and Articles"; ObjectID = "N9I-nZ-tKu"; */
+"N9I-nZ-tKu.text" = "Tips and Articles";
+
+/* Class = "UILabel"; text = "Label1"; ObjectID = "S4h-dN-4eD"; */
+"S4h-dN-4eD.text" = "Label1";
+
+/* Class = "UILabel"; text = "Evening Routine"; ObjectID = "WjU-xW-OWW"; */
+"WjU-xW-OWW.text" = "Evening Routine";
+
+/* Class = "UILabel"; text = "Label3"; ObjectID = "XhE-f1-7Te"; */
+"XhE-f1-7Te.text" = "Label3";
+
+/* Class = "UIButton"; configuration.title = "Cleanser"; ObjectID = "YTo-nN-ZlX"; */
+"YTo-nN-ZlX.configuration.title" = "Cleanser";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YTo-nN-ZlX"; */
+"YTo-nN-ZlX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "a4X-mh-aHo"; */
+"a4X-mh-aHo.text" = "Title";
+
+/* Class = "UIButton"; configuration.title = "Serum"; ObjectID = "a7d-PS-VHS"; */
+"a7d-PS-VHS.configuration.title" = "Serum";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "a7d-PS-VHS"; */
+"a7d-PS-VHS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Add as a Widget"; ObjectID = "cWQ-Or-e59"; */
+"cWQ-Or-e59.text" = "Add as a Widget";
+
+/* Class = "UILabel"; text = "Face Exfoliation"; ObjectID = "gBy-ay-3OS"; */
+"gBy-ay-3OS.text" = "Face Exfoliation";
+
+/* Class = "UIButton"; configuration.title = "scrub"; ObjectID = "hZb-Zt-ddU"; */
+"hZb-Zt-ddU.configuration.title" = "scrub";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hZb-Zt-ddU"; */
+"hZb-Zt-ddU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Skin Analysis"; ObjectID = "hjU-fX-57b"; */
+"hjU-fX-57b.text" = "Skin Analysis";
+
+/* Class = "UIButton"; configuration.title = "SPF"; ObjectID = "n0f-dD-QeH"; */
+"n0f-dD-QeH.configuration.title" = "SPF";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "n0f-dD-QeH"; */
+"n0f-dD-QeH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Skin Journaling"; ObjectID = "oop-CU-ZRN"; */
+"oop-CU-ZRN.text" = "Skin Journaling";
+
+/* Class = "UILabel"; text = "change theme"; ObjectID = "qr0-6I-66b"; */
+"qr0-6I-66b.text" = "change theme";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "sDf-r9-AGx"; */
+"sDf-r9-AGx.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Morning Routine"; ObjectID = "sun-cR-5B4"; */
+"sun-cR-5B4.text" = "Morning Routine";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "sv3-Ij-hKh"; */
+"sv3-Ij-hKh.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; configuration.title = "Moisturizer"; ObjectID = "v4f-I9-Za0"; */
+"v4f-I9-Za0.configuration.title" = "Moisturizer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "v4f-I9-Za0"; */
+"v4f-I9-Za0.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label2"; ObjectID = "y8f-SV-hxO"; */
+"y8f-SV-hxO.text" = "Label2";
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "ych-xb-FRV"; */
+"ych-xb-FRV.text" = "Select Language";
+
+/* Class = "UILabel"; text = "HomePage"; ObjectID = "z40-gE-Mzh"; */
+"z40-gE-Mzh.text" = "HomePage";

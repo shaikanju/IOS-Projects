@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0C2BBD2C11570B0010C874 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0C2BBC2C11570B0010C874 /* ThemeManager.swift */; };
+		CD0C2BBF2C1157550010C874 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0C2BBE2C1157550010C874 /* SettingsViewController.swift */; };
+		CD3EDE1F2C10E91900DA7DF8 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EDE1E2C10E8EB00DA7DF8 /* ArticlesTableViewController.swift */; };
+		CD3EDE212C10E9A600DA7DF8 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EDE202C10E9A500DA7DF8 /* ArticleDetailViewController.swift */; };
+		CD4E58EA2C07D2B2000DBB0C /* SkinGeniusAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D969A2C0170C600D5C0DD /* SkinGeniusAppUITestsLaunchTests.swift */; };
+		CD4E590E2C091CC8000DBB0C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E58F12C07E5A3000DBB0C /* WidgetKit.framework */; };
+		CD4E590F2C091CC8000DBB0C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E58F32C07E5A3000DBB0C /* SwiftUI.framework */; };
+		CD4E59122C091CC8000DBB0C /* SkinGeniusWidget1Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E59112C091CC8000DBB0C /* SkinGeniusWidget1Bundle.swift */; };
+		CD4E59142C091CC9000DBB0C /* SkinGeniusWidget1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E59132C091CC9000DBB0C /* SkinGeniusWidget1.swift */; };
+		CD4E59162C091CCC000DBB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4E59152C091CCC000DBB0C /* Assets.xcassets */; };
+		CD4E591A2C091CCC000DBB0C /* SkinGeniusWidget1Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CD4E590D2C091CC8000DBB0C /* SkinGeniusWidget1Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD7D2D2E2C14B433003854D1 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D2D2D2C14B433003854D1 /* KeychainHelper.swift */; };
+		CD7D2D302C151F36003854D1 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D2D2F2C151F36003854D1 /* TermsViewController.swift */; };
+		CD7D96782C0170C400D5C0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D96772C0170C400D5C0DD /* AppDelegate.swift */; };
+		CD7D967A2C0170C400D5C0DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D96792C0170C400D5C0DD /* SceneDelegate.swift */; };
+		CD7D967C2C0170C400D5C0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D967B2C0170C400D5C0DD /* ViewController.swift */; };
+		CD7D967F2C0170C400D5C0DD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CD7D967E2C0170C400D5C0DD /* Base */; };
+		CD7D96812C0170C600D5C0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7D96802C0170C600D5C0DD /* Assets.xcassets */; };
+		CD7D96842C0170C600D5C0DD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CD7D96832C0170C600D5C0DD /* Base */; };
+		CD7D968F2C0170C600D5C0DD /* SkinGeniusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D968E2C0170C600D5C0DD /* SkinGeniusAppTests.swift */; };
+		CD7D96992C0170C600D5C0DD /* SkinGeniusAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D96982C0170C600D5C0DD /* SkinGeniusAppUITests.swift */; };
+		CD95127E2C15852C0050062F /* questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95127D2C15852C0050062F /* questions.swift */; };
+		CD9512802C1585760050062F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95127F2C1585760050062F /* QuestionViewController.swift */; };
+		CD9512842C1586F30050062F /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9512832C1586F30050062F /* ResultsViewController.swift */; };
+		CD9663B02C02D491000C69AA /* CreateRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9663AF2C02D491000C69AA /* CreateRoutine.swift */; };
+		CD99A4A02C16B99E0061F998 /* SavedRecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD99A49F2C16B99E0061F998 /* SavedRecommendationsViewController.swift */; };
+		CD99A4A22C1754770061F998 /* widgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD99A4A12C1754770061F998 /* widgetViewController.swift */; };
+		CD9ED5F42C1792E90033D6AC /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ED5F32C1792E90033D6AC /* DatePickerViewController.swift */; };
+		CD9ED5F82C17E0580033D6AC /* TimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ED5F72C17E0580033D6AC /* TimePickerViewController.swift */; };
+		CDD925102C10DF6300FD542F /* articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD9250F2C10DF6300FD542F /* articles.swift */; };
+		CDE643342C050EE100345416 /* SkinJournaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE643332C050EE100345416 /* SkinJournaling.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4E59182C091CCC000DBB0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7D966C2C0170C400D5C0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4E590C2C091CC8000DBB0C;
+			remoteInfo = SkinGeniusWidget1Extension;
+		};
+		CD7D968B2C0170C600D5C0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7D966C2C0170C400D5C0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7D96732C0170C400D5C0DD;
+			remoteInfo = SkinGeniusApp;
+		};
+		CD7D96952C0170C600D5C0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7D966C2C0170C400D5C0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7D96732C0170C400D5C0DD;
+			remoteInfo = SkinGeniusApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDE643532C05263400345416 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD4E591A2C091CCC000DBB0C /* SkinGeniusWidget1Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD0C2BBC2C11570B0010C874 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		CD0C2BBE2C1157550010C874 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CD3EDE1E2C10E8EB00DA7DF8 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
+		CD3EDE202C10E9A500DA7DF8 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		CD3EDE222C11298000DA7DF8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		CD3EDE232C11298100DA7DF8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CD3EDE242C11299800DA7DF8 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		CD3EDE252C11299800DA7DF8 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CD4E58F12C07E5A3000DBB0C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CD4E58F32C07E5A3000DBB0C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CD4E59072C07E803000DBB0C /* SkinGeniusApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkinGeniusApp.entitlements; sourceTree = "<group>"; };
+		CD4E59082C07E8EB000DBB0C /* SkinGeniusWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkinGeniusWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CD4E590D2C091CC8000DBB0C /* SkinGeniusWidget1Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SkinGeniusWidget1Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4E59112C091CC8000DBB0C /* SkinGeniusWidget1Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinGeniusWidget1Bundle.swift; sourceTree = "<group>"; };
+		CD4E59132C091CC9000DBB0C /* SkinGeniusWidget1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinGeniusWidget1.swift; sourceTree = "<group>"; };
+		CD4E59152C091CCC000DBB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4E59172C091CCC000DBB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5CEA402C13D387008A193C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		CD5CEA412C13D387008A193C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CD7D2D2D2C14B433003854D1 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		CD7D2D2F2C151F36003854D1 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		CD7D96742C0170C400D5C0DD /* SkinGeniusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinGeniusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D96772C0170C400D5C0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7D96792C0170C400D5C0DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD7D967B2C0170C400D5C0DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD7D967E2C0170C400D5C0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7D96802C0170C600D5C0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7D96832C0170C600D5C0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD7D96852C0170C600D5C0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7D968A2C0170C600D5C0DD /* SkinGeniusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinGeniusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D968E2C0170C600D5C0DD /* SkinGeniusAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinGeniusAppTests.swift; sourceTree = "<group>"; };
+		CD7D96942C0170C600D5C0DD /* SkinGeniusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinGeniusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D96982C0170C600D5C0DD /* SkinGeniusAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinGeniusAppUITests.swift; sourceTree = "<group>"; };
+		CD7D969A2C0170C600D5C0DD /* SkinGeniusAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinGeniusAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD95127D2C15852C0050062F /* questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questions.swift; sourceTree = "<group>"; };
+		CD95127F2C1585760050062F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CD9512832C1586F30050062F /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		CD9663AF2C02D491000C69AA /* CreateRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoutine.swift; sourceTree = "<group>"; };
+		CD99A49F2C16B99E0061F998 /* SavedRecommendationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRecommendationsViewController.swift; sourceTree = "<group>"; };
+		CD99A4A12C1754770061F998 /* widgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetViewController.swift; sourceTree = "<group>"; };
+		CD9ED5F32C1792E90033D6AC /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		CD9ED5F72C17E0580033D6AC /* TimePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerViewController.swift; sourceTree = "<group>"; };
+		CDD9250F2C10DF6300FD542F /* articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articles.swift; sourceTree = "<group>"; };
+		CDE643332C050EE100345416 /* SkinJournaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinJournaling.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4E590A2C091CC8000DBB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4E590F2C091CC8000DBB0C /* SwiftUI.framework in Frameworks */,
+				CD4E590E2C091CC8000DBB0C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96712C0170C400D5C0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96872C0170C600D5C0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96912C0170C600D5C0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4E58F02C07E5A3000DBB0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4E58F12C07E5A3000DBB0C /* WidgetKit.framework */,
+				CD4E58F32C07E5A3000DBB0C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4E59102C091CC8000DBB0C /* SkinGeniusWidget1 */ = {
+			isa = PBXGroup;
+			children = (
+				CD4E59112C091CC8000DBB0C /* SkinGeniusWidget1Bundle.swift */,
+				CD4E59132C091CC9000DBB0C /* SkinGeniusWidget1.swift */,
+				CD4E59152C091CCC000DBB0C /* Assets.xcassets */,
+				CD4E59172C091CCC000DBB0C /* Info.plist */,
+			);
+			path = SkinGeniusWidget1;
+			sourceTree = "<group>";
+		};
+		CD7D966B2C0170C400D5C0DD = {
+			isa = PBXGroup;
+			children = (
+				CD7D2D2D2C14B433003854D1 /* KeychainHelper.swift */,
+				CD7D96762C0170C400D5C0DD /* SkinGeniusApp */,
+				CD7D968D2C0170C600D5C0DD /* SkinGeniusAppTests */,
+				CD7D96972C0170C600D5C0DD /* SkinGeniusAppUITests */,
+				CD4E59102C091CC8000DBB0C /* SkinGeniusWidget1 */,
+				CD4E58F02C07E5A3000DBB0C /* Frameworks */,
+				CD7D96752C0170C400D5C0DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7D96752C0170C400D5C0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D96742C0170C400D5C0DD /* SkinGeniusApp.app */,
+				CD7D968A2C0170C600D5C0DD /* SkinGeniusAppTests.xctest */,
+				CD7D96942C0170C600D5C0DD /* SkinGeniusAppUITests.xctest */,
+				CD4E590D2C091CC8000DBB0C /* SkinGeniusWidget1Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7D96762C0170C400D5C0DD /* SkinGeniusApp */ = {
+			isa = PBXGroup;
+			children = (
+				CD4E59072C07E803000DBB0C /* SkinGeniusApp.entitlements */,
+				CD7D96772C0170C400D5C0DD /* AppDelegate.swift */,
+				CD0C2BBE2C1157550010C874 /* SettingsViewController.swift */,
+				CD7D2D2F2C151F36003854D1 /* TermsViewController.swift */,
+				CD7D96792C0170C400D5C0DD /* SceneDelegate.swift */,
+				CD7D967B2C0170C400D5C0DD /* ViewController.swift */,
+				CD0C2BBC2C11570B0010C874 /* ThemeManager.swift */,
+				CD3EDE1E2C10E8EB00DA7DF8 /* ArticlesTableViewController.swift */,
+				CD3EDE202C10E9A500DA7DF8 /* ArticleDetailViewController.swift */,
+				CDD9250F2C10DF6300FD542F /* articles.swift */,
+				CD9663AF2C02D491000C69AA /* CreateRoutine.swift */,
+				CD95127D2C15852C0050062F /* questions.swift */,
+				CD95127F2C1585760050062F /* QuestionViewController.swift */,
+				CD9ED5F32C1792E90033D6AC /* DatePickerViewController.swift */,
+				CD9512832C1586F30050062F /* ResultsViewController.swift */,
+				CDE643332C050EE100345416 /* SkinJournaling.swift */,
+				CD7D967D2C0170C400D5C0DD /* Main.storyboard */,
+				CD99A4A12C1754770061F998 /* widgetViewController.swift */,
+				CD99A49F2C16B99E0061F998 /* SavedRecommendationsViewController.swift */,
+				CD7D96802C0170C600D5C0DD /* Assets.xcassets */,
+				CD7D96822C0170C600D5C0DD /* LaunchScreen.storyboard */,
+				CD7D96852C0170C600D5C0DD /* Info.plist */,
+				CD9ED5F72C17E0580033D6AC /* TimePickerViewController.swift */,
+			);
+			path = SkinGeniusApp;
+			sourceTree = "<group>";
+		};
+		CD7D968D2C0170C600D5C0DD /* SkinGeniusAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D968E2C0170C600D5C0DD /* SkinGeniusAppTests.swift */,
+			);
+			path = SkinGeniusAppTests;
+			sourceTree = "<group>";
+		};
+		CD7D96972C0170C600D5C0DD /* SkinGeniusAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D96982C0170C600D5C0DD /* SkinGeniusAppUITests.swift */,
+				CD7D969A2C0170C600D5C0DD /* SkinGeniusAppUITestsLaunchTests.swift */,
+				CD4E59082C07E8EB000DBB0C /* SkinGeniusWidgetExtension.entitlements */,
+			);
+			path = SkinGeniusAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4E590C2C091CC8000DBB0C /* SkinGeniusWidget1Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4E591B2C091CCC000DBB0C /* Build configuration list for PBXNativeTarget "SkinGeniusWidget1Extension" */;
+			buildPhases = (
+				CD4E59092C091CC8000DBB0C /* Sources */,
+				CD4E590A2C091CC8000DBB0C /* Frameworks */,
+				CD4E590B2C091CC8000DBB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkinGeniusWidget1Extension;
+			productName = SkinGeniusWidget1Extension;
+			productReference = CD4E590D2C091CC8000DBB0C /* SkinGeniusWidget1Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CD7D96732C0170C400D5C0DD /* SkinGeniusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D969E2C0170C600D5C0DD /* Build configuration list for PBXNativeTarget "SkinGeniusApp" */;
+			buildPhases = (
+				CD7D96702C0170C400D5C0DD /* Sources */,
+				CD7D96712C0170C400D5C0DD /* Frameworks */,
+				CD7D96722C0170C400D5C0DD /* Resources */,
+				CDE643532C05263400345416 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4E59192C091CCC000DBB0C /* PBXTargetDependency */,
+			);
+			name = SkinGeniusApp;
+			productName = SkinGeniusApp;
+			productReference = CD7D96742C0170C400D5C0DD /* SkinGeniusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7D96892C0170C600D5C0DD /* SkinGeniusAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D96A12C0170C600D5C0DD /* Build configuration list for PBXNativeTarget "SkinGeniusAppTests" */;
+			buildPhases = (
+				CD7D96862C0170C600D5C0DD /* Sources */,
+				CD7D96872C0170C600D5C0DD /* Frameworks */,
+				CD7D96882C0170C600D5C0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7D968C2C0170C600D5C0DD /* PBXTargetDependency */,
+			);
+			name = SkinGeniusAppTests;
+			productName = SkinGeniusAppTests;
+			productReference = CD7D968A2C0170C600D5C0DD /* SkinGeniusAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD7D96932C0170C600D5C0DD /* SkinGeniusAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D96A42C0170C600D5C0DD /* Build configuration list for PBXNativeTarget "SkinGeniusAppUITests" */;
+			buildPhases = (
+				CD7D96902C0170C600D5C0DD /* Sources */,
+				CD7D96912C0170C600D5C0DD /* Frameworks */,
+				CD7D96922C0170C600D5C0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7D96962C0170C600D5C0DD /* PBXTargetDependency */,
+			);
+			name = SkinGeniusAppUITests;
+			productName = SkinGeniusAppUITests;
+			productReference = CD7D96942C0170C600D5C0DD /* SkinGeniusAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7D966C2C0170C400D5C0DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CD4E590C2C091CC8000DBB0C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CD7D96732C0170C400D5C0DD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CD7D96892C0170C600D5C0DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CD7D96732C0170C400D5C0DD;
+					};
+					CD7D96932C0170C600D5C0DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CD7D96732C0170C400D5C0DD;
+					};
+				};
+			};
+			buildConfigurationList = CD7D966F2C0170C400D5C0DD /* Build configuration list for PBXProject "SkinGeniusApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				hi,
+				de,
+			);
+			mainGroup = CD7D966B2C0170C400D5C0DD;
+			productRefGroup = CD7D96752C0170C400D5C0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7D96732C0170C400D5C0DD /* SkinGeniusApp */,
+				CD7D96892C0170C600D5C0DD /* SkinGeniusAppTests */,
+				CD7D96932C0170C600D5C0DD /* SkinGeniusAppUITests */,
+				CD4E590C2C091CC8000DBB0C /* SkinGeniusWidget1Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4E590B2C091CC8000DBB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4E59162C091CCC000DBB0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96722C0170C400D5C0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D96812C0170C600D5C0DD /* Assets.xcassets in Resources */,
+				CD7D96842C0170C600D5C0DD /* Base in Resources */,
+				CD7D967F2C0170C400D5C0DD /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96882C0170C600D5C0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96922C0170C600D5C0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4E59092C091CC8000DBB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4E59122C091CC8000DBB0C /* SkinGeniusWidget1Bundle.swift in Sources */,
+				CD4E59142C091CC9000DBB0C /* SkinGeniusWidget1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96702C0170C400D5C0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD99A4A22C1754770061F998 /* widgetViewController.swift in Sources */,
+				CDD925102C10DF6300FD542F /* articles.swift in Sources */,
+				CD9ED5F42C1792E90033D6AC /* DatePickerViewController.swift in Sources */,
+				CD7D967C2C0170C400D5C0DD /* ViewController.swift in Sources */,
+				CD9512802C1585760050062F /* QuestionViewController.swift in Sources */,
+				CD95127E2C15852C0050062F /* questions.swift in Sources */,
+				CDE643342C050EE100345416 /* SkinJournaling.swift in Sources */,
+				CD9ED5F82C17E0580033D6AC /* TimePickerViewController.swift in Sources */,
+				CD0C2BBF2C1157550010C874 /* SettingsViewController.swift in Sources */,
+				CD7D96782C0170C400D5C0DD /* AppDelegate.swift in Sources */,
+				CD7D2D2E2C14B433003854D1 /* KeychainHelper.swift in Sources */,
+				CD9512842C1586F30050062F /* ResultsViewController.swift in Sources */,
+				CD9663B02C02D491000C69AA /* CreateRoutine.swift in Sources */,
+				CD0C2BBD2C11570B0010C874 /* ThemeManager.swift in Sources */,
+				CD7D967A2C0170C400D5C0DD /* SceneDelegate.swift in Sources */,
+				CD3EDE212C10E9A600DA7DF8 /* ArticleDetailViewController.swift in Sources */,
+				CD99A4A02C16B99E0061F998 /* SavedRecommendationsViewController.swift in Sources */,
+				CD7D2D302C151F36003854D1 /* TermsViewController.swift in Sources */,
+				CD3EDE1F2C10E91900DA7DF8 /* ArticlesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96862C0170C600D5C0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D968F2C0170C600D5C0DD /* SkinGeniusAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D96902C0170C600D5C0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4E58EA2C07D2B2000DBB0C /* SkinGeniusAppUITestsLaunchTests.swift in Sources */,
+				CD7D96992C0170C600D5C0DD /* SkinGeniusAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4E59192C091CCC000DBB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4E590C2C091CC8000DBB0C /* SkinGeniusWidget1Extension */;
+			targetProxy = CD4E59182C091CCC000DBB0C /* PBXContainerItemProxy */;
+		};
+		CD7D968C2C0170C600D5C0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7D96732C0170C400D5C0DD /* SkinGeniusApp */;
+			targetProxy = CD7D968B2C0170C600D5C0DD /* PBXContainerItemProxy */;
+		};
+		CD7D96962C0170C600D5C0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7D96732C0170C400D5C0DD /* SkinGeniusApp */;
+			targetProxy = CD7D96952C0170C600D5C0DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7D967D2C0170C400D5C0DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7D967E2C0170C400D5C0DD /* Base */,
+				CD3EDE222C11298000DA7DF8 /* es */,
+				CD3EDE242C11299800DA7DF8 /* hi */,
+				CD5CEA402C13D387008A193C /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7D96822C0170C600D5C0DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7D96832C0170C600D5C0DD /* Base */,
+				CD3EDE232C11298100DA7DF8 /* es */,
+				CD3EDE252C11299800DA7DF8 /* hi */,
+				CD5CEA412C13D387008A193C /* de */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4E591C2C091CCC000DBB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkinGeniusWidget1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkinGeniusWidget1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashaik8.SkinGeniusApp.SkinGeniusWidget1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4E591D2C091CCC000DBB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkinGeniusWidget1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkinGeniusWidget1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashaik8.SkinGeniusApp.SkinGeniusWidget1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD7D969C2C0170C600D5C0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD7D969D2C0170C600D5C0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7D969F2C0170C600D5C0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkinGeniusApp/SkinGeniusApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GFM8YUPMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkinGeniusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashaik8.SkinGeniusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7D96A02C0170C600D5C0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkinGeniusApp/SkinGeniusApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GFM8YUPMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkinGeniusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashaik8.SkinGeniusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD7D96A22C0170C600D5C0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashaik8.SkinGeniusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinGeniusApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkinGeniusApp";
+			};
+			name = Debug;
+		};
+		CD7D96A32C0170C600D5C0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashaik8.SkinGeniusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinGeniusApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkinGeniusApp";
+			};
+			name = Release;
+		};
+		CD7D96A52C0170C600D5C0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashaik8.SkinGeniusAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkinGeniusApp;
+			};
+			name = Debug;
+		};
+		CD7D96A62C0170C600D5C0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashaik8.SkinGeniusAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkinGeniusApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4E591B2C091CCC000DBB0C /* Build configuration list for PBXNativeTarget "SkinGeniusWidget1Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4E591C2C091CCC000DBB0C /* Debug */,
+				CD4E591D2C091CCC000DBB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D966F2C0170C400D5C0DD /* Build configuration list for PBXProject "SkinGeniusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D969C2C0170C600D5C0DD /* Debug */,
+				CD7D969D2C0170C600D5C0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D969E2C0170C600D5C0DD /* Build configuration list for PBXNativeTarget "SkinGeniusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D969F2C0170C600D5C0DD /* Debug */,
+				CD7D96A02C0170C600D5C0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D96A12C0170C600D5C0DD /* Build configuration list for PBXNativeTarget "SkinGeniusAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D96A22C0170C600D5C0DD /* Debug */,
+				CD7D96A32C0170C600D5C0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D96A42C0170C600D5C0DD /* Build configuration list for PBXNativeTarget "SkinGeniusAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D96A52C0170C600D5C0DD /* Debug */,
+				CD7D96A62C0170C600D5C0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7D966C2C0170C400D5C0DD /* Project object */;
+}

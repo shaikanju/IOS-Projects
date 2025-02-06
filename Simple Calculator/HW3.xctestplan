@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "C92BD59C-7622-4AC9-B369-C41E587C17E2",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HW3.xcodeproj",
+      "identifier" : "0D57D7892B5F04940053A879",
+      "name" : "HW3"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:HW3.xcodeproj",
+        "identifier" : "0D57D7A92B5F04960053A879",
+        "name" : "HW3UITests"
+      }
+    }
+  ],
+  "version" : 1
+}
